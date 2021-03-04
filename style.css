@@ -1,0 +1,135 @@
+.body{padding: 0px;
+    margin: 0px;
+    width: 100%;}
+.container{
+         margin: 0 outo; width: 100%;}
+.container>header{ background-image:url(https://fpttelecom.net/wp-content/uploads/2015/09/cap-quang-fpt-danh-cho-sinh-vien.jpg);
+                background-size: 100% 100%;
+                height: 0px; 
+                padding-bottom: 25%;}
+.container>nav{ line-height:40px;
+               background-color:orangered;
+               color:white;
+               text-align:center;
+               font-variant:small-caps;}
+.container > article{ min-height:400px;
+                    width:75%;
+                   background-color:white;
+                   float:left;}
+.container > aside{ min-height:400px;
+                  width:25%;
+                  background-color:lightgray;
+                  float:right;}
+.container > footer{    border-top:5px double orangered;
+                       line-height:50px;
+                       background-color:lightcyan;
+                       text-align:center;
+                       font-variant:small-caps;
+                      clear:both;}
+.container > nav > a{  color:white;
+                      text-decoration:none;
+                      margin:0 10px;} 
+.container > nav > a:hover{ color:yellow;
+                          text-decoration:underline;}                       
+iframe[name=page]{ width: 100%;
+                 min-height: 400px;}
+.menu>ul>li{ display:inline-block;}
+.menu>ul>li>a{ display:block;}
+.menu>ul{   padding:0px;
+          margin:0px;
+          list-style:none;
+          border-radius:3px;
+          background-color:orangered;
+          text-align:center; }
+.menu>ul>li>a{  text-decoration:none;
+              font-variant:small-caps;
+              font-size:larger;
+              color:white;
+              padding:0 10px;
+              line-height:40px;} 
+.menu>ul>li>a:hover{ color: yellow;} 
+.menu>ul>li{position:relative;}
+.menu ul ul{position:absolute;
+          display:none ;}  
+.menu ul ul a{ display:block;}
+.menu>ul>li:hover>ul{display:block;}
+.menu ul ul{ padding:0px;
+          margin:0px;
+          list-style:none;
+          border-radius:3px;
+          width:200px;
+          background-color:white;
+          box-shadow:0 0 1px gray;}
+.menu ul ul a{  line-height:30px;
+              color:orangered;
+              text-decoration:none;
+              font-variant:small-caps;
+              font-size:larger;
+              padding:0 10px;}
+.menu ul ul a:hover{ background-color: orangered;
+                   color: white;}
+ul.vmenu{margin: 0px;
+        padding: 0px;
+        border-radius: 5px;
+        box-shadow: 0 0 5px orangered;
+        list-style: none;}
+ul.vmenu>li>a{ display: block;
+             line-height: 30px;
+             border-bottom: 1px dotted orangered;
+             text-decoration: none;
+             font-variant: small-caps;
+             color: orangered;
+             padding-left: 25px;}
+ul.vmenu>li>a:hover{ font-weight: bolder;
+                   color: red;}
+                   .col-25{
+                    width: 25%;
+                    float: left;
+                }
+.prod{
+    border-radius: 10px;
+     box-shadow: 0 0 5px gray;
+    margin: 5px;
+    padding: 5px;
+    text-align: center;
+    position: relative;
+}
+.prod>.name{font-variant: small-caps;
+color: blue;
+                }
+.prod>.image{
+    max-width: 98%;
+    height: 200px;
+    margin-bottom: 10px;
+                }
+.prod>.price{
+    position: absolute;
+     left: 5px;
+    bottom: 5px;
+    font-family: Impact;
+    font-size: 25px;
+    color: orange;
+                }
+.prod>.icons{
+    position: absolute;
+    right: 5px;
+    bottom: 5px;
+     width: 25px;
+                }
+.prod>.new-icon{
+    position: absolute;
+    top: 0px;
+    right: 0px;
+                }
+.detail{
+    width: 100%;
+    border: 1px solid green;
+                }
+.detail>.detail-image{
+                   
+    float: left;
+                }
+.detail>.detail-description{
+    width: 60%;
+    float: right;
+                }

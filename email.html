@@ -1,0 +1,180 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>FPOLY</title>
+        <link href="style.css" rel="stylesheet">
+        <style>
+            table, th, td {
+              border: 1px solid blue;
+              border-collapse: collapse;} 
+              th, td {
+            padding: 5px;
+            text-align:center;}   
+            #t01 tr:nth-child(even) {
+            background-color:rgb(157, 202, 240);}
+            #t01 tr:nth-child(edd){
+            background-color:white;}
+            #t01 th {
+            background-color:rgb(79, 63, 230);
+            color: white;} 
+            .column{
+            width:20%;
+            float:left;}
+            .san-pham{
+            border-radius:10px;
+            box-shadow: 5 5px gray;
+            padding:10px;
+            margin:5px;
+            text-align:center;}
+            .san-pham .ten{
+            font-size:larger;
+            font-variant:small-caps;
+            color: blue;}
+            .san-pham img{
+            max-width:95%;}
+            .san-pham .gia{
+            color:red;
+            font-weight:bold;
+            font-size:larger;}
+            .san-pham .gia del{
+            color:gray;}
+            ul.gmenu{ display: block;
+                    margin: 0px;
+                    padding: 0px;
+                    border-radius: 5px;
+                    box-shadow: 0 0 5px orangered;
+                    list-style: none;
+                    background-color: orangered;
+                    position: relative;}
+                    ul.gmenu>li>a{
+                        line-height: 30px;
+                        border-bottom: 5px dotted orangered;
+                        text-decoration: none;
+                        font-variant: small-caps;
+                        color: white;
+                        padding-left: 25px;
+                        float: left;
+                        color: #f2f2f2;
+                        text-align: center;
+                        padding: 14px 16px;
+                        text-decoration: none;
+                        font-size: 17px;
+                        float: right; border-radius:15px;
+                        background-color: orangered;}
+                ul.gmenu>li>a:hover{ font-weight: bolder;
+                                color: yellow;}
+            </style>
+    </head>
+    <body>
+        <div class="container">
+            <header>
+                <div > 
+                <ul class="gmenu">
+                    <li><a href="#quen">Quên mật khẩu</a></li>
+                    <li><a href="dangnhap.html" target="page">Đăng nhập</a></li>
+                    <li><a href="dangkii.html" target="page">Đăng kí</a></li>
+                </ul>
+                </div>
+                <h1 style="color: whitesmoke; font-size:80px; font-weight: bold; text-decoration: underline; text-shadow: 0 5px orangered;font-style: italic; position: absolute; top: 150px; left: 30px;">FPT Polytechnic</h1><br>
+                <h1 style="color: orangered; text-shadow: 0 3px white; position: absolute; top: 280px; left: 100px; font-style: italic;">Thực học - Thực nghiệp</h1>
+            </header>
+            <nav class="menu"> 
+                <ul>
+                  <li><a href="index.html" target="page">Trang chủ</a></li>
+                  <li><a href="gioithieu.html" target="page">Giới thiệu</a></li>
+                 <li><a href="lienhe.html" target="page">Liên hệ</a>
+                  <ul>
+                      <li><a href="mobile.html" target="page">Mobile</a></li>
+                      <li><a href="email.html" target="page">Email</a></li>
+                  </ul>
+                  </li>
+                  <li><a href="hoidap.html" target="page">Hỏi đáp</a> </li>
+                 <li> <a href="gopy.html">Góp ý</a></li>
+                 <li><a href="detail.html">Sản phẩm</a></li>
+               <li style="float: right;"><a href="#eng">English</a></li>
+               <li style="float: right;"><a href="#viet">Tiếng Việt</a></li>
+                </ul>
+            </nav>
+            <article>
+        <table style="width: 100%;" id="t01"> 
+            <tr>
+                <th rowspan="2">Ngoại tệ</th>
+                <th colspan="2">Tỷ giá mua</th>
+                <th rowspan="2">Tỷ giá bán</th>
+            </tr>
+            <tr>
+                <th>Tiền mặt</th>
+                <th>Chuyển khoản</th>
+            </tr>
+            <tr>
+                <td>USD (USD 50-100)</td>
+                <td>22,250</td>
+                <td>22,260</td>
+                <td>22,345</td>
+            </tr>
+            <tr>
+                <td>USD (USD 5-20)</td>
+                <td>22,240</td>
+                <td></td>
+                <td></td>
+            </tr>
+            <tr>
+                <td>USD (dưới 5 USD)</td>
+                <td>22,230</td>
+                <td></td>
+                <td></td>
+            </tr>
+            <tr>
+                <td>EUR</td>
+                <td>24,041</td>
+                <td>24,284</td>
+                <td>24,649</td>
+            </tr>
+            <tr>
+                <td>GBP</td>
+                <td>26,621</td>
+                <td>26,890</td>
+                <td>27,339</td>
+            </tr>
+            <tr>
+                <td>JPY</td>
+                <td>208.00</td>
+                <td>212.70</td>
+                <td>216.11</td>
+            </tr>
+            <tr>
+                <td>HKD</td>
+                <td>2,756</td>
+                <td>2,841</td>
+                <td>2,907</td>
+            </tr>
+            <tr>
+                <td>CNY</td>
+                <td></td>
+                <td>3,266</td>
+                <td>3,350</td>
+            </tr>
+            <tr>
+                <td>AUD</td>
+                <td>16,401</td>
+                <td>16,136</td>
+                <td>17,110</td>
+            </tr>
+        </table>
+    </article>
+    <aside>
+        <ul class="vmenu">
+             <li><img src="C:\Users\hoang\OneDrive\Pictures\xu.png" alt="xu" width="8%" style="float: left;"><a href="#xachtay">Máy tính xách tay</a></li>
+             <li><img src="C:\Users\hoang\OneDrive\Pictures\xu.png" alt="xu" width="8%" style="float: left;"><a href="#didong">Điện thoại di động</a></li>
+             <li><img src="C:\Users\hoang\OneDrive\Pictures\xu.png" alt="xu" width="8%" style="float: left;"><a href="#mayquay">Máy quay phim</a></li>
+             <li><img src="C:\Users\hoang\OneDrive\Pictures\xu.png" alt="xu" width="8%" style="float: left;"><a href="#mayban">Máy tính để bàn </a></li>
+             <li><img src="C:\Users\hoang\OneDrive\Pictures\xu.png" alt="xu" width="8%" style="float: left;"><a href="#mayin">Máy in</a></li>
+             <li><img src="C:\Users\hoang\OneDrive\Pictures\xu.png" alt="xu" width="8%" style="float: left;"><a href="#maymau">Máy photo màu</a></li>
+             <li><img src="C:\Users\hoang\OneDrive\Pictures\xu.png" alt="xu" width="8%" style="float: left;"><a href="#maychup">Máy chụp ảnh</a></li>
+        </ul>
+      </aside>
+      <footer>FPT Polytechnic © 2017. All rights reserved.</footer>
+      </div>           
+      </body>
+      </html>
+    

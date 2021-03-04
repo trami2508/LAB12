@@ -1,0 +1,165 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>FPOLY</title>
+        <link href="style.css" rel="stylesheet">
+        <style>
+            .column{
+            width:20%;
+            float:left;}
+            .san-pham{
+            border-radius:10px;
+            box-shadow: 5 5px gray;
+            padding:10px;
+            margin:5px;
+            text-align:center;}
+            .san-pham .ten{
+            font-size:larger;
+            font-variant:small-caps;
+            color: blue;}
+            .san-pham img{
+            max-width:95%;}
+            .san-pham .gia{
+            color:red;
+            font-weight:bold;
+            font-size:larger;}
+            .san-pham .gia del{
+            color:gray;}
+            ul.gmenu{ display: block;
+                    margin: 0px;
+                    padding: 0px;
+                    border-radius: 5px;
+                    box-shadow: 0 0 5px orangered;
+                    list-style: none;
+                    background-color: orangered;
+                    position: relative;}
+                    ul.gmenu>li>a{
+                        line-height: 30px;
+                        border-bottom: 5px dotted orangered;
+                        text-decoration: none;
+                        font-variant: small-caps;
+                        color: white;
+                        padding-left: 25px;
+                        float: left;
+                        color: #f2f2f2;
+                        text-align: center;
+                        padding: 14px 16px;
+                        text-decoration: none;
+                        font-size: 17px;
+                        float: right; border-radius:15px;
+                        background-color: orangered;}
+                ul.gmenu>li>a:hover{ font-weight: bolder;
+                                color: yellow;}
+        </style>
+    </head>
+    <body> 
+        <div class="container">
+            <header>
+                <div > 
+                <ul class="gmenu">
+                    <li><a href="#quen">Quên mật khẩu</a></li>
+                    <li><a href="dangnhap.html" target="page">Đăng nhập</a></li>
+                    <li><a href="dangkii.html" target="page">Đăng kí</a></li>
+                </ul>
+                </div>
+                <h1 style="color: whitesmoke; font-size:80px; font-weight: bold; text-decoration: underline; text-shadow: 0 5px orangered;font-style: italic; position: absolute; top: 150px; left: 30px;">FPT Polytechnic</h1><br>
+                <h1 style="color: orangered; text-shadow: 0 3px white; position: absolute; top: 280px; left: 100px; font-style: italic;">Thực học - Thực nghiệp</h1>
+            </header>
+            <nav class="menu"> 
+                <ul>
+                    <li><a href="index.html" target="page">Trang chủ</a></li>
+                    <li><a href="gioithieu.html" target="page">Giới thiệu</a></li>
+                   <li><a href="lienhe.html" target="page">Liên hệ</a>
+                    <ul>
+                        <li><a href="mobile.html" target="page">Mobile</a></li>
+                        <li><a href="email.html" target="page">Email</a></li>
+                    </ul>
+                    </li>
+                    <li><a href="hoidap.html" target="page">Hỏi đáp</a> </li>
+                   <li> <a href="gopy.html">Góp ý</a></li>
+                   <li><a href="detail.html">Sản phẩm</a></li>
+               <li style="float: right;"><a href="#eng">English</a></li>
+               <li style="float: right;"><a href="#viet">Tiếng Việt</a></li>
+                </ul>
+            </nav>
+            <article>
+        <link href="style1.css" rel="stylesheet">
+        <h3>ĐĂNG KÍ THÀNH VIÊN</h3>
+        <form action="xu-ly.hpt" method="POST" enctype="multipart/form-data">
+            <div class="form-group">
+            <label >Họ và tên</label><br>
+            <input type="text" name="id"  class="form-control" tabindex="1">
+            <br>
+            </div>
+            <div class="form-group">
+           <fieldset><legend style="font-weight: bold; font-variant: small-caps;">Giới tính</legend><br>
+           <label><input type="radio" name="gioitinh" checked>Nam</label>
+           <label><input type="radio" name="gioitinh" >Nữ</label></fieldset>
+            <br>
+            </div>
+            <div class="form-group">
+            <label> Ngày sinh</label><br>
+            <input type="date" name="ngaysinh" class="form-control">
+            <br>
+            </div>
+            <div class="form-group">
+            <label>Hình ảnh</label> <br>
+             <input type="file">
+            </div>
+            <div>
+                <label style="font-weight: bold; font-variant: small-caps;">Quốc tịch</label><br>
+                <input type="browsers" value="Việt Nam" style=" width:99%; height:30px;" readonly>
+            </div>
+            <div class="form-group">
+            <label>Điểm</label><br>
+            <input  class="form-control" type="number" name="diem" style=" width:98%; height:30px;" min="0" max="10" step="0.25">
+            <br>
+            </div>
+            <div class="form-group">
+             <label>Nghề nghiệp</label><br>
+             <input list="browsers" name="nghiep" class="form-control">
+             <datalist id="browsers">
+                 <option value="Giáo viên"></option>
+                 <option value="Bác sĩ"></option>
+                 <option value="Kỹ sư"></option>
+                 <option value="Y tá"></option>
+                 <option value="Phiên dịch"></option>
+             </datalist>
+            <br>
+            </div>
+            <div class="form-group">
+            <fieldset><legend style="font-variant: small-caps; font-weight: bold;">Sở thích</legend><br>
+             <label><input type="radio" name="sothich">Thể thao</label>
+             <label><input type="radio" name="sothich" checked>Du lịch</label>
+             <label><input type="radio" name="sothich">Âm nhạc </label>
+             <label><input type="radio" name="sothich">Ẩm thực</label>
+            </fieldset>
+            </div>
+            <div class="form-group">
+            <label style="font-weight: bold; font-variant: small-caps;">Ghi chú</label><br>
+            <textarea   class="form-control" rows="5" cols="153" tabindex="2"></textarea>
+            </div>
+            <hr>
+            <div class="form-group">
+            <button type="submit" class="form-button" tabindex="3">Đăng kí</button> 
+            <button class="form-button" tabindex="4">Nhập lại</button> 
+            <button class="form-button" disabled>Xóa</button>
+            </div>
+        </form>
+    </article>
+    <aside>
+        <ul class="vmenu">
+             <li><img src="C:\Users\hoang\OneDrive\Pictures\xu.png" alt="xu" width="8%" style="float: left;"><a href="#xachtay">Máy tính xách tay</a></li>
+             <li><img src="C:\Users\hoang\OneDrive\Pictures\xu.png" alt="xu" width="8%" style="float: left;"><a href="#didong">Điện thoại di động</a></li>
+             <li><img src="C:\Users\hoang\OneDrive\Pictures\xu.png" alt="xu" width="8%" style="float: left;"><a href="#mayquay">Máy quay phim</a></li>
+             <li><img src="C:\Users\hoang\OneDrive\Pictures\xu.png" alt="xu" width="8%" style="float: left;"><a href="#mayban">Máy tính để bàn </a></li>
+             <li><img src="C:\Users\hoang\OneDrive\Pictures\xu.png" alt="xu" width="8%" style="float: left;"><a href="#mayin">Máy in</a></li>
+             <li><img src="C:\Users\hoang\OneDrive\Pictures\xu.png" alt="xu" width="8%" style="float: left;"><a href="#maymau">Máy photo màu</a></li>
+             <li><img src="C:\Users\hoang\OneDrive\Pictures\xu.png" alt="xu" width="8%" style="float: left;"><a href="#maychup">Máy chụp ảnh</a></li>
+        </ul>
+    </aside>
+    <footer>FPT Polytechnic © 2017. All rights reserved.</footer>
+   </div>           
+</body>
+</html>
+    
